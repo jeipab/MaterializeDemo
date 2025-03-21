@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Feature Comparison</title>
+
+    <!-- Materialize CSS -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Web Page Icon -->
+    <link rel="icon" href="assets/logo.jpg" type="image/jpeg">
+
+    <style>
+        html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        }
+        body {
+        background-color: #fbe9e7;
+        }
+        h5.section-title {
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        }
+        table.striped th {
+        background-color: #4e342e;
+        color: white;
+        text-align: center;
+        }
+        td {
+        padding: 8px 12px;
+        text-align: center;
+        }
+        th {
+        padding: 10px;
+        }
+        table.striped {
+        font-size: 0.95rem;
+        }
+        .card-panel {
+        padding: 16px;
+        }
+        .page-footer {
+        margin-top: auto;
+        }
+    </style>
+    </head>
+    <body>
+
+    <!-- Navbar -->
+    <nav class="brown darken-3">
+        <div class="nav-wrapper container">
+        <ul class="left">
+            <li><a href="basic.html"><i class="material-icons left">arrow_back</i>Basic</a></li>
+            <li><a href="materialize.html"><i class="material-icons left">palette</i>Materialize</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <h5 class="center section-title brown-text text-darken-3">List of Materialize Features Used</h5>
+        <div class="card-panel z-depth-1">
+        <table class="striped responsive-table">
+            <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr><td>Materialize CSS & Icons</td><td>Pre-built styles and Material Design icons</td></tr>
+            <tr><td>Preloader Animation</td><td>Displays a loading spinner when the page loads</td></tr>
+            <tr><td>Materialize Navbar</td><td>Uses <code>nav-wrapper</code>, <code>brand-logo</code>, and icons</td></tr>
+            <tr><td>Hero Section Enhancements</td><td>Uses <code>valign-wrapper</code>, <code>waves-effect</code>, and styled buttons</td></tr>
+            <tr><td>Grid System</td><td>Applies <code>container</code>, <code>row</code>, and <code>col</code> for responsiveness</td></tr>
+            <tr><td>Tabs for Menu</td><td>Easy switching between menu categories</td></tr>
+            <tr><td>Materialize Cards</td><td>Pre-styled <code>card</code> components for menu items</td></tr>
+            <tr><td>Buttons with Animations</td><td>Ripple effects, pulse, and hoverable interactions</td></tr>
+            <tr><td>Footer with Materialize Styles</td><td>Structured using <code>page-footer</code></td></tr>
+            <tr><td>JavaScript Enhancements</td><td>Handles tabs and preloader using minimal JS</td></tr>
+            </tbody>
+        </table>
+        </div>
+
+        <h5 class="center section-title brown-text text-darken-3">Observations Comparing the Two</h5>
+        <div class="card-panel z-depth-1">
+        <table class="striped responsive-table">
+            <thead>
+            <tr>
+                <th>Feature</th>
+                <th><code>basic.html</code></th>
+                <th><code>materialize.html</code></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr><td>CSS Framework</td><td>Custom CSS</td><td>Materialize CSS</td></tr>
+            <tr><td>Navbar</td><td>Static links</td><td>Responsive, with icons</td></tr>
+            <tr><td>Hero Section</td><td>Static image & text</td><td>Centered layout, animated button</td></tr>
+            <tr><td>Menu Layout</td><td>Simple static divs</td><td>Tabs and Materialize Cards</td></tr>
+            <tr><td>Buttons</td><td>Basic hover effect</td><td>Ripple effect, icons, animations</td></tr>
+            <tr><td>JavaScript</td><td>None</td><td>Used for tabs and preloader</td></tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer brown darken-3 z-depth-5">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <p class="white-text">Comparison View</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+</html>
